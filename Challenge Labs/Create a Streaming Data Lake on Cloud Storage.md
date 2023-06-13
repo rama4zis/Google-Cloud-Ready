@@ -53,6 +53,8 @@ mvn compile exec:java \
 
 # Task 4. Run a Dataflow pipeline to stream data from a Pub/Sub topic to Cloud Storage
 
+Wait for "All workers have finished the startup process and began to receive work request."
+
 Navigate to Dataflow UI > Job History
 
 Make sure the job status is Running
